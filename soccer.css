@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#field {
+  background: url(field.png);
+  width: 800px;
+  height: 600px;
+  float: left;
+}
+
+
+
+.draggable {
+  cursor: pointer;
+}
+
+.dragging {
+  z-index: 1000;
+  position: absolute;
+  cursor: move;
+}
+
+
+
